@@ -4,6 +4,8 @@ The API helps CRUD Operations for Product Inventory.
 
 It has details of products and their quantity.
 
+To use this api, [Click Here](https://ecommerce-api-vamsi.herokuapp.com/).
+
 ## Run on local machine
 
 To use this repository you should have following
@@ -63,3 +65,21 @@ ECOMMERCE API
 ├── package.json
 └── readme.md
 ```
+
+## Working with CRUD Operations in API
+
+To create a product you can create in this way, use POST Method.
+
+- <Url>/api/products/create
+
+To view the products in an api, use GET Method.
+
+- <Url>/api/products
+
+To delete the product from api, you have to paste id of the product, with DELETE Method.
+
+- <Url>/api/products/:id
+
+To update quantity of a product in an api, you have to enter a number o quantityyou have to update, use POST Method.
+
+- <Url>/api/products/:id/update_quantity/?
