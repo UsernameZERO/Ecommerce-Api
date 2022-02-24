@@ -70,16 +70,16 @@ ECOMMERCE API
 
 To create a product you can create in this way, use POST Method.
 
-- <Url>/api/products/create
+- AFTER_URL/api/products/create
 
 To view the products in an api, use GET Method.
 
-- <Url>/api/products
+- AFTER_URL/api/products
 
 To delete the product from api, you have to paste id of the product, with DELETE Method.
 
-- <Url>/api/products/:id
+- AFTER_URL/api/products/:id
 
 To update quantity of a product in an api, you have to enter a number o quantityyou have to update, use POST Method.
 
-- <Url>/api/products/:id/update_quantity/?
+- AFTER_URL/api/products/:id/update_quantity/?
